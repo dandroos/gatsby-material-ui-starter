@@ -1,3 +1,4 @@
+import HeadComponent from "../components/Head"
 import React from "react"
 import { Typography } from "@mui/material"
 import { connect } from "react-redux"
@@ -15,3 +16,5 @@ const stp = (s) => ({
 })
 
 export default connect(stp)(Index)
+
+export const Head = () => <HeadComponent />

@@ -10,8 +10,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-site-wrapper",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-emotion",
+    "gatsby-plugin-mui-emotion",
     "gatsby-plugin-redux",
     `gatsby-plugin-image`,
 
@@ -40,7 +39,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     // NETLIFY
-    // `gatsby-plugin-netlify`,
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-sharp`,
 
     // MARKDOWN TRANSFORMER
